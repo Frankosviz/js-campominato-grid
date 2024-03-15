@@ -10,7 +10,8 @@ const grid = document.getElementById('grid');
 console.log(grid);
 
 for (let index = 0; index < 100; index++){
-    const square = generateNewGridSquare(index + 1)
+    const square = generateNewGridSquare(index + 1);
+    console.log(square);
     
 }
 
