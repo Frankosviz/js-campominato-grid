@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    flex-wrap: wrap;
 }
 
 .square {
@@ -19,11 +20,19 @@
     cursor: crosshair;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     color: black;
     text-align: center;
 }
 
+.square:hover{
+    background-color: rgb(197, 196, 196);
+}
+
 .bg-aqua {
     background-color: aqua;
+}
+
+.bg-white {
+    background-color: white;
 }
