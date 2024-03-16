@@ -11,8 +11,15 @@ console.log(grid);
 
 for (let index = 0; index < 100; index++){
     const square = generateNewGridSquare(index + 1);
+
     console.log(square);
+
+    square.addEventListener('click', function(){
+    square.classList.add('.bg-aqua');
+    console.log()
     
+    });
+    gridElement.appendChild(square);
 }
 
 
